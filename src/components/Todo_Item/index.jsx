@@ -10,6 +10,7 @@ function TodoItem({ todoItem, fetchTodoItemDetails }) {
             flexDirection: "column",
             justifyContent: 'space-between',
             backgroundColor: 'gray',
+            color : 'white',
             '&:hover': {
                 transform : 'scale(1.02)',
                 transition : 'transform 5ms',
