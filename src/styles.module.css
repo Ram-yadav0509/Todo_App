@@ -1,0 +1,14 @@
+
+.container {
+    padding: 50px;
+}
+
+.headerText {
+    font-size: 25px;
+}
+
+.todoListContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
